@@ -11,7 +11,7 @@ namespace TeamNavigator
             _dataSet = new DataSet();
 
             // string connStr = System.Configuration.ConfigurationManager.ConnectionStrings["teamsConnectionString"].ConnectionString;
-            string connStr = "Data Source=CZECLBRNAPE1;Initial Catalog=teams;Persist Security Info=True;User ID=aperinge;Password=root";
+            string connStr = "xx";
 
             SqlConnection cn = new SqlConnection(connStr);
 
